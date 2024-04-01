@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+    <meta charset="UTF-8">
+    <meta name="author" content="Blog de Juan David Bernal Carrasco">
+    <title>Huellitas</title>
+    <link rel="icon" type="image/jpg" alt="icono"
+    href="imagenes/icono.jpg"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+   
+</head>
+<body>
+
+ <!--header-->
+ <header>
+    <div>
+        <img alt="logo huellitas" src="Imagenes/logo huellitas.png" 
+        height="270"/>
+    </div>
+</header> 
+
+    <!--Navegación-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.jpg" alt="icono" width="50px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+           aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contactar
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"> 
+                    <img src="imagenes/whatsApp.jpg" alt="whatsApp" width="20px"> WhatsApp
+                  </a></li>
+                  <li><a class="dropdown-item" href="#">
+                    <img src="imagenes/icono gmail.png" alt="gmail" width="20px">Correo</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">
+                    <img src="imagenes/icono teléfono.png" alt="teléfono" width="20px"> Teléfonos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://Huellitas3/birth-web" aria-disabled="true" >Princesa</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+        
+    <!--Estructura--> 
+    <div class="row">
+        <aside>
+            <div>
+                <div>
+                    <div>
+                        <img src="Imagenes/princesa.png" 
+                        class="rounded mx-auto d-block" 
+                        alt="Princesa" 
+                        style="width: 257px;">  
+                    </div>
+                    <div>
+                        <a href="https://Huellitas3/birth-web">
+                            Princesa</a>
+                    </div>
+                     
+                </div>
+               
+            </div>
+           
+            <h3>Fotos de princesa</h3>
+            <p>A ella le encanta posar para las fotos, 
+                es muy expresiva, le encanta relajarse 
+                y lo más importante descansar</p>
+
+            <a href="#" class="fotos-princesa">
+                <h4>Bella durmiente</h4>
+                <img src="imagenes/bella durmiente.jpg" 
+                class="rounded mx-auto d-block"
+                alt="Bella durmiente" style="width: 257px;" 
+                class="fotos-img"/>
+            </a>
+            <a href="#" class="fotos-princesa">
+                <h4>Hola, aquí estoy</h4>
+                <img src="imagenes/Hola.jpg" class="rounded mx-auto d-block"
+                alt="Hola, aquí estoy" 
+                style="width: 257px;" class="fotos-img"/>
+            </a>
+            <a href="#" class="fotos-princesa">
+                <h4>Relajada</h4>
+                <img src="imagenes/Relajada.jpg" class="rounded mx-auto d-block"
+                alt="Relajada" 
+                style="width: 257px;" class="fotos-img"/>
+            </a>
+            <h4>Más que una mascota</h4>
+            <p>Son seres hermosos, divertidos,asombrosos
+                 y maravillosos</p>
+                 <p>  Llenan tu vida de amor, aventuras, 
+                    sus travesuras te divierten y entretienen, 
+                    además en una tarde fría son tu mejor compañía 
+                    te dan su calor y su ternura.</p>
+                 <a href="#" class="fotos-princesa"> 
+                    <h4>Día internacional del gato</h4>
+                    <img src="imagenes/Día del gato.jpg" class="rounded mx-auto d-block"
+                    alt="Día del gato"
+                    style="width: 257px;" class="fotos-img"/>
+                </a>
+                <div id="carouselPrincesa" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" 
+                        data-bs-slide-to="0" class="active" aria-current="true" 
+                        aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" 
+                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" 
+                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" 
+                        data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" 
+                        data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" 
+                        data-bs-slide-to="5" aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" 
+                        data-bs-slide-to="6" aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" 
+                        data-bs-slide-to="7" aria-label="Slide 8"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" 
+                        data-bs-slide-to="8" aria-label="Slide 9"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" 
+                        data-bs-slide-to="9" aria-label="Slide 10"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="imagenes/SOY LINDA 1.jpg" class="d-block w-100" alt="linda">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagenes/SOY LINDA 2.jpg" class="d-block w-100" alt="siempre linda">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagenes/SOY LINDA 3.jpg" class="d-block w-100" alt="muy linda">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagenes/SOY LINDA 4.jpg" class="d-block w-100" alt="muy linda">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagenes/SOY LINDA 5.jpg" class="d-block w-100" alt="muy linda">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagenes/SOY LINDA 6.jpg" class="d-block w-100" alt="muy linda">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagenes/SOY LINDA 7.jpg" class="d-block w-100" alt="muy linda">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagenes/SOY LINDA 8.jpg" class="d-block w-100" alt="muy linda">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagenes/SOY LINDA 9.jpg" class="d-block w-100" alt="muy linda">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagenes/soy linda 10.jpg" class="d-block w-100" alt="muy linda">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPrincesa" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPrincesa" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+        </aside>
+        <section class="main">
+            <ul>
+                <li><a href="#Caract-gatos">Características de los gatos</a></li>
+                <li><a href="#cómo">Cómo entender a tu gato</a></li>
+                <li><a href="#Historias">Historias</a></li>
+            </ul>
+            <a href="/html/"HTML></a>
+                    
+                              
+             <h1>Huellitas</h1>
+            <h2>El increible mundo de los gatos</h2>
+        <article>
+            <p>El mundo de los gatos es increíble, estos felinos han estado presentes en el mundo
+                desde el principio de los tiempos y considerados sagrados en algunas culturas. 
+                Ellos son simplemente divertidos, asombrosos y maravillosos, es hora de aprender 
+                un poco más de su mundo y descubrir lo increíble de los gatos, sus costumbres,
+                sus características físicas, su carácter, los beneficios de su compañía, 
+                sus cuidados, como entenderlos, la responsabilidad que implica tener un gato en
+                casa Y sus increíbles historias.</p>  
+        </article>
+            <ol>
+                <li id="Caract-gatos"> Características de los gatos</li>
+                <ol>
+                    <li class="subtemas">Edad de los gatos con respecto 
+                        a los humanos</li>
+                    <p class="parrafo">¿Sabias que tu gato puede llegar a acompañarte hasta por 20 años?
+                         La respuesta es sí.  Esto depende de si es doméstico, 
+                         salvaje o callejero, esto define su esperanza de vida.</p>
+                         <p id="primero">El gato domestico tiene la más alta que es de unos 
+                            14 o 15 años, en algunos casos puede llegar
+                             a superar los 20 años, en el caso de los salvajes 
+                             o callejeros disminuye de 2 a 3 años y tiene una 
+                             esperanza de vida de 5 a 6 años si se encuentras 
+                             esterilizados.</p>
+                             <p class="parrafo">La forma de crecer y envejecer de los
+                                 gatos es distinta a los humanos, ya que
+                                  en los primeros dos años de vida 
+                                  del gato representan 24 años humanos, 
+                                  es decir, ya es un adulto a los 2 años 
+                                  y se considera que a partir de los 
+                                  2 años cada año equivale a 4 años
+                                   humanos</p>
+                    <h3>Edad de mi gato en años humanos</h3>
+    
+                                            
+                             <table class="table table  table-bordered border-primary 
+                             table align-middle table align-center display flex">
+                                                               
+                                <tr class="table-secondary align-items: center; justify-content: center">
+                                    <th>EDAD DEL GATO</th>
+                                    <th>EDAD DEL GATO 
+                                        EN AÑOS HUMANOS</th>
+                                    <th>EDAD DEL GATO</th>
+                                    <th>EDAD DEL GATO 
+                                        EN AÑOS HUMANOS</th>
+                                </tr>
+                                <tr>
+                                    <td class="table-success">1</td>
+                                    <td class="table-danger">15</td>
+                                    <td class="table-success">14</td>
+                                    <td class="table-primary">72</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-success">2</td>
+                                    <td class="table-warning">24</td>
+                                    <td class="table-success">15</td>
+                                    <td class="table-primary">76</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-success">3</td>
+                                    <td class="table-warning">28</td>
+                                    <td class="table-success">16</td>
+                                    <td class="table-primary">80</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-success">4</td>
+                                    <td class="table-warning">32</td>
+                                    <td class="table-success">17</td>
+                                    <td class="table-primary">84</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-success">5</td>
+                                    <td class="table-warning">36</td>
+                                    <td class="table-success">18</td>
+                                    <td class="table-primary">88</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-success">6</td>
+                                    <td class="table-warning">40</td>
+                                    <td class="table-success">19</td>
+                                    <td class="table-primary">92</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-success">7</td>
+                                    <td class="table-warning">44</td>
+                                    <td class="table-success">20</td>
+                                    <td class="table-primary">96</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-success">8</td>
+                                    <td class="table-warning">48</td>
+                                    <td class="table-success">21</td>
+                                    <td class="table-primary">100</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-success">9</td>
+                                    <td class="table-warning">52</td>
+                                    <td class="table-success">22</td>
+                                    <td class="table-primary">104</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-success">10</td>
+                                    <td class="table-warning">56</td>
+                                    <td class="table-success">23</td>
+                                    <td class="table-primary">108</td>
+                                </tr>
+                                <tr>
+                                    <td class="table-success">11</td>
+                                    <td class="table-warning">60</td>
+                                    <td class="table-success">24</td>
+                                    <td class="table-primary">112</td>
+                                 </tr>
+                                </tr>
+                                <tr>
+                                    <td class="table-success">12</td>
+                                    <td class="table-primary">64</td>
+                                    <td class="table-success">25</td>
+                                    <td class="table-primary">116</td>
+                                </tr>
+                            </tr>
+                            <tr>
+                                <td class="table-success">13</td>
+                                <td class="table-primary">68</td>
+                            </tr>
+                              
+                            </table>  
+                                                  
+                    <li class="subtemas">Tipo o conformación</li>
+                    <li class="subtemas">Características del pelaje</li>
+                     <!--descendientes-->
+                     <div class="subtemas1">
+                    <ul>
+                        
+                        <li class="sub1">Tipos de pelaje</li>
+                        <li class="sub1" >Patrones de pelaje</li>
+                        <li class="sub1">Colores de pelaje</li>
+                    </div>
+                    </ul>
+                    <li class="subtemas">Forma y colores de los ojos</li>
+                    <li class="subtemas">Razas de gatos</li>
+                    <!--descendientes-->
+                    <div class="subtemas1">
+                    <ul>
+                        <li class="sub2">Pelo corto</li>
+                        <li class="sub2">Pelo largo</li>
+                      </div>
+                     </ul>
+               </ol>
+               <li id="cómo"> Cómo entender a tu gato</li>
+               <ol>
+                <li class="subtemas2">Cómo escoger al gato apropiado</li>
+                <li class="subtemas2">Gato en casa</li>
+                <!--descendientes-->
+                <div class="subtemas11">
+                <ul>
+                    <li class="sub3">Adaptación al hogar</li>
+                    <li class="sub3">Adaptación a otros animales</li>
+                </div>
+                </ul>
+                <li class="subtemas2">El gato en vacaciones</li>
+                <li class="subtemas2">El castigo y la autoridad</li>
+               </ol>
+                 <li id="Historias">Historias</li>
+                <ol>
+                    <li class="subtemas3">Libros</li>
+                    <li class="subtemas3">Cine y televisión</li>
+                    <li class="subtemas3">Redes sociales</li>
+                      <!--descendientes-->
+                      <div class="subtemas4">
+                    <ul>
+                        <li class="sub4">Instagram</il>
+                        <li class="sub4">Tiktok</li>
+                        <li class="sub4">Youtube</li>
+                    </ul>
+                </div>
+                </ol>
+             </ol>
+        </section>
+        
+    </div><!--/row-->
+    
+            <footer>
+            <p>Juan David Bernal Carrasco</p>
+            <P>Contacto:
+                 <a href="https://www.skolmi.com">
+                    juandavidbernalcarrasco@gmail.com</a></P>
+         </footer>
+         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+         crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" 
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+         crossorigin="anonymous"></script>            
+</body>
+</html>
